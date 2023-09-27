@@ -7,7 +7,7 @@
     import EditClassroom from "../../../SubComponents/modal/EditClassroom.svelte";
     import AddTeacher from "../../../SubComponents/modal/AddTeacher.svelte";
     import EditTeacher from "../../../SubComponents/modal/EditTeacher.svelte";
-export let data;
+export let data
 
 const ID =  parseInt(data.params.id)
 let schools :any= [];
